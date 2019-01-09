@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   grid-area: nav;
-  background-color: black;
+  background-color: brown;
   justify-content: flex-end;
 }
 .nav div {
@@ -25,11 +25,11 @@
 }
 .section {
   grid-area: section;
-  background-color: black;
+  background-color: green;
 }
 .footer {
   grid-area: footer;
-  background-color: black;
+  background-color: red;
 }
 .myResume {
   display: grid;
