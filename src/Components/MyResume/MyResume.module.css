@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  grid-area: nav;
+  background-color: black;
+  justify-content: flex-end;
+}
+.nav div {
+  display: flex;
+  align-content: center;
+  padding-right: 115px;
+  margin-top: 20px;
+  padding-left: 40px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.nav div a {
+  color: white;
+  text-decoration: none;
+}
+.nav div a:hover {
+  opacity: 0.5;
+}
+.nav div span {
+  margin: 5px;
+}
+.section {
+  grid-area: section;
+  background-color: black;
+}
+.footer {
+  grid-area: footer;
+  background-color: black;
+}
+.myResume {
+  display: grid;
+  grid-template-areas: "nav nav" "section section" "footer footer";
+  grid-template-rows: 80px 1fr 50px;
+  min-height: 100vh;
+}
