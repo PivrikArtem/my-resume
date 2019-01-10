@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 // import './App.css';
-import MyResume from './Components/MyResume/MyResume';
+import MyResumeWithHoc from './Components/MyResume/MyResume';
+import './i18n';
 
-
-class App extends Component {
-  render() {
-    return (
-      <MyResume />
-    );
-  }
+const App = () => {
+  return (
+    <MyResumeWithHoc />
+  );
 }
 
 export default App;
