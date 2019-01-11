@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   grid-area: nav;
-  background-color: brown;
+  background-color: #008064;
   justify-content: flex-end;
 }
 .nav div {
@@ -13,27 +13,39 @@
   list-style-type: none;
   font-size: 20px;
 }
+.nav div li {
+  height: 30px;
+  cursor: pointer;
+}
+.nav div li:hover {
+  opacity: 0.5;
+}
 .nav div a {
   color: white;
   text-decoration: none;
-}
-.nav div a:hover {
-  opacity: 0.5;
 }
 .nav div span {
   margin: 5px;
 }
 .section {
   grid-area: section;
-  background-color: green;
+  background-color: #808080;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
 }
 .footer {
   grid-area: footer;
-  background-color: red;
+  background-color: #008064;
 }
 .myResume {
   display: grid;
   grid-template-areas: "nav nav" "section section" "footer footer";
   grid-template-rows: 80px 1fr 50px;
   min-height: 100vh;
+}
+@media screen and (max-width: 600px) {
+  .myResume {
+    grid-template-areas: "nav" "section" "footer";
+    grid-template-columns: 100%;
+    grid-template-areas: 50px 1fr 50px;
+  }
 }

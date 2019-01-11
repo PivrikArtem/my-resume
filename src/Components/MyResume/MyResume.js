@@ -16,18 +16,18 @@ const MyResume = ({ t }) => {
       <div className={s.myResume}>
         <nav className={s.nav}>
           <div className="Wrapper-Language">
-            <button onClick={() => changeLanguage('en')} >en</button>
+            <li onClick={() => changeLanguage('en')} >en</li>
             <span>/</span>
-            <button onClick={() => changeLanguage('ru')}>ru</button>
+            <li onClick={() => changeLanguage('ru')}>ru</li>
 
           </div>
           <div className="nav-categories">
             <li className="category">
-              <Link to='/aboutMe'> {t('about me')}</Link>
+              <Link to='/aboutMe' className="link"> {t('about me')}</Link>
             </li >
             <span>/</span>
             <li className="category">
-              <Link to='/projects'>{t('my projects')}</Link>
+              <Link to='/projects' className="link">{t('my projects')}</Link>
             </li>
           </div>
 
