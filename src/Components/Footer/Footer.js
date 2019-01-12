@@ -6,8 +6,8 @@ export const Footer = () => {
       <div className="footer-container">
         <div className="my-footer-name">AP inc.</div>
         <div className="link-wrapper">
-          <a href="https://t.me/ArtemPivrik" className="fab fa-telegram-plane">tel </a>
-          <a href="https://github.com/PivrikArtem" className="fab fa-github">Git </a>
+          <a href="https://t.me/ArtemPivrik" className="fab fa-telegram-plane"> </a>
+          <a href="https://github.com/PivrikArtem" className="fab fa-github"></a>
         </div>
       </div>
     </div>
