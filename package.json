@@ -2,7 +2,9 @@
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://PivrikArtem.github.io/my-resume/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "i18next": "^13.1.1",
     "i18next-browser-languagedetector": "^2.2.4",
     "react": "^16.7.0",
@@ -15,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
