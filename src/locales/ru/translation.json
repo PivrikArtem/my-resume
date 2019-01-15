@@ -34,6 +34,7 @@
     "Using ES6 syntax": "Использование синтаксиса ES6",
     "Using promise when working with ajax requests": "Использование promise при работе с аякс",
     "Adherence to the principle Dependency Injection": "Соблюдение принципа Dependency Injection",
+    "modern buildings":"современные здания",
     "Layout with flexbox": "Верстка с использованием flexbox",
     "Layout with bootstrap": "Верстка с использованием bootstrap",
     "Work with Less": "Работа с Less",
@@ -43,5 +44,11 @@
     "Work with jquery": "Работа с jquery",
     "fruit basket": "корзина фруктов",
     "Work with Local Storage": "Работа с Local Storage",
-    "to click on the image to view the project": "нажмите на изображение что бы просмотреть проект"
+    "to click on the image to view the project": "нажмите на изображение что бы просмотреть проект",
+    "Using pattern MVC":"Использование шаблона MVC",
+    "Work with React and Redux":"Работа с React, Redux",
+    "Belarusian State University":"Белорусский государственный университет",
+    "Mechanics and Mathematics Faculty":"Механико-математический факультет",
+    "a second year student(second education)":"cтедент второго курса(заочное образование)"
+
 }

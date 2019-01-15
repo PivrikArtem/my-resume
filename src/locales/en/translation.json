@@ -37,6 +37,7 @@
     "Adherence to the principle Dependency Injection": "Adherence to the principle Dependency Injection",
     "Layout with flexbox": "Layout with flexbox",
     "Layout with bootstrap": "Layout with bootstrap",
+    "modern buildings":"modern buildings",
     "Work with Less": "Work with Less",
     "to do list": "to do list",
     "calculator": "calculator",
@@ -44,5 +45,10 @@
     "Work with jquery": "Work with jquery",
     "fruit basket": "fruit basket",
     "Work with Local Storage": "Work with Local Storage",
-    "to click on the image to view the project": "to click on the image to view the project"
+    "to click on the image to view the project": "to click on the image to view the project",
+    "Work with React and Redux":"Work with React and Redux",
+    "Using pattern MVC":"Using pattern MVC",
+    "Belarusian State University":"Belarusian State University",
+    "Mechanics and Mathematics Faculty":"Mechanics and Mathematics Faculty",
+    "a second year student(second education)":"a second year student(second education)"
 }

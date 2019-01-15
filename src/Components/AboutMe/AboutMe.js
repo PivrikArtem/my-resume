@@ -42,6 +42,11 @@ const AboutMe = ({ t }) => {
             {t('Polotsk State University')}.<br />
             {t('Faculty of civil engineering')}.<br />
           </p>
+          <p className="Full-Description">
+            {t('Belarusian State University')}.<br />
+            {t('Mechanics and Mathematics Faculty')},<br />
+            {t('a second year student(second education)')}.<br />
+          </p>
         </div>
         <div className="Education-Experience-And-Skills">
           <p className="Information-Section-Name">{t('Experience and skills')}</p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, HashRouter, Route } from 'react-router-dom';
 import AboutMeWithHoc from './../AboutMe/AboutMe';
-import MyProjects from './../MyProjects/MyProjects';
+import MyProjectsWithHoc from './../MyProjects/MyProjects';
 import { Footer } from './../Footer/Footer';
 import s from './../MyResume/MyResume.module.css';
 import { withNamespaces } from 'react-i18next';
@@ -35,7 +35,7 @@ const MyResume = ({ t }) => {
         <section className={s.section}>
           <Route exact path="/" component={AboutMeWithHoc} />
           <Route path='/aboutMe' component={AboutMeWithHoc} />
-          <Route path='/projects' component={MyProjects} />
+          <Route path='/projects' component={MyProjectsWithHoc} />
         </section>
         <footer className={s.footer}>
           <Footer />
